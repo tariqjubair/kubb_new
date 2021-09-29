@@ -1,0 +1,587 @@
+
+/* ==== ==== All Common CSS Start ==== ==== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.body {
+    overflow: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* -------- // ----- // ------- */
+
+.item_top {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.item_top h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #cccccc;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.item_top h3:after {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #666666;
+    content: '';
+    top: 50%;
+    left: -115px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.item_top h3:before {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #666666;
+    content: '';
+    top: 50%;
+    right: -115px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+/* -------- // ----- // ------- */
+
+.sub_top {
+    padding-bottom: 25px;
+}
+
+.sub_top h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.sub_top h3:after {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #cccccc;
+    content: '';
+    top: 50%;
+    right: -115px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+/* ==== ==== All Common CSS End ==== ==== */
+
+/* ==== ==== Header part Starts Here  ==== ==== */
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 45px;
+    line-height: 32px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #33cccc;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.44);
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar .navbar-brand {
+    padding-bottom: 12px;
+}
+
+.ext_hd {
+    background: #000;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar .container {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-toggler i {
+    font-size: 23px;
+    color: #fff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-toggler i:hover {
+    color: #33cccc;
+}
+
+.xsm_menu_bg {
+    background: #000;
+}
+
+/* ==== ==== Header part Ends Here  ==== ==== */
+
+/* ==== ==== Banner part Starts Here  ==== ==== */
+
+#banner {
+    padding-top: 330px;
+    padding-bottom: 250px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_text {
+    text-align: center;
+}
+
+.banner_text h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow:
+    0 0 7px #000;
+}
+
+.banner_text h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-shadow:
+    0 0 7px #000;
+}
+
+.banner_text p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow:
+    0 0 7px #000;
+}
+
+/* ==== ==== Banner part Ends Here  ==== ==== */
+
+/* ==== ==== Offer part Starts Here  ==== ==== */
+
+#offer {
+    padding-top: 80px;
+    padding-bottom: 85px;
+    background: #ffffff;
+}
+
+.serv_top {
+    text-align: center;
+}
+
+.serv_top h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #333333;
+}
+
+.serv_top p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.serv_top h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.serv_item {
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
+
+.serv_item_text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #333333;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.serv_item_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* ==== ==== Offer part Ends Here  ==== ==== */
+
+/* ==== ==== Insta part Starts Here  ==== ==== */
+
+#insta {
+    padding: 50px 0;
+    background: #333333;
+}
+
+.insta_bot {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.insta_bot a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    text-transform: uppercase;
+    border: 1px solid #666666;
+    padding: 16px 20px;
+}
+
+.insta_bot i {
+    font-size: 15px!important;
+    margin-right: 6px;
+}
+
+.insta_slider .slick-dots {	
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.insta_slider .slick-dots li {
+    margin: 10px;
+}
+
+.insta_slider .slick-dots button {
+    display: block;
+    width: 15px;
+    height: 3px;
+    padding: 0;
+    border: none;
+    background-color: #000;
+    text-indent: -9999px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.insta_slider .slick-dots li.slick-active button {
+    background-color: #cccccc;
+}
+
+/* ==== ==== Insta part Ends Here  ==== ==== */
+
+/* ==== ==== Journal part Starts Here  ==== ==== */
+
+#journal {
+    padding-top: 80px;
+    background: #ffffff;
+}
+
+#journal .item_top {
+    padding-bottom: 30px;
+}
+
+#journal .item_top h3 {
+    color: #333333;
+}
+
+.jour_item {
+    border: 1px solid #cccccc;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+
+.jour_item_top h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 17px;
+}
+
+.jour_item_top p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+    padding-bottom: 25px;
+}
+
+.jour_item_para {
+    padding: 20px 20px;
+}
+
+.jour_item_para p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+}
+
+.jour_item_link {
+    padding: 0 25px;
+    padding-bottom: 20px;
+}
+
+.jour_item_link_left {
+    float: left;
+}
+
+.jour_item_link_left a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #999999;
+    text-transform: uppercase;
+    border-bottom: 1px solid #33cccc;
+    padding-bottom: 3px;
+}
+
+.jour_item_link_right {
+    float: right;
+}
+
+.jour_item_link_right p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #999999;
+    display: inline-block;
+}
+
+.jour_item_link_right i {
+    color: #999999;
+    margin-right: 6px;
+}
+
+/* ==== ==== Journal part Ends Here  ==== ==== */
+
+/* ==== ==== About part Starts Here  ==== ==== */
+
+#about {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.me_text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #666666;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+.me_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.myserv_item {
+    margin-bottom: 23px;
+}
+
+.myserv_item_icon {
+    width: 70px;
+    padding-left: 6px;
+}
+
+.myserv_item_text {
+    padding-left: 25px;
+}
+
+.myserv_item_text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #333333;
+    padding-bottom: 15px;
+}
+
+.myserv_item_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+}
+
+/* ==== ==== About part Ends Here  ==== ==== */
+
+/* ==== ==== Footer Top part Starts Here  ==== ==== */
+
+#footer_top {
+    padding: 70px 0;
+    background: #373737;
+}
+
+#footer_top h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#footer_top p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 24px;
+}
+
+#footer_top h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+}
+
+.sp_pb_para {
+    padding-bottom: 30px;
+}
+
+.sp_pb_para_sm {
+    padding-bottom: 8px;
+}
+
+.sp_pb_date {
+    padding-bottom: 25px;
+}
+
+.sp_i_size {
+    font-size: 10px!important;
+}
+
+.info_item_one_bot_icon {
+    width: 25px;
+    float: left;
+}
+
+.info_item_one_bot_text {
+    width: 82%;
+    float: left
+}
+
+/* ==== ==== Footer Top part Ends Here  ==== ==== */
+
+/* ==== ==== Footer part Starts Here  ==== ==== */
+
+#footer {
+    padding: 40px 0;
+    background: #333333;
+}
+
+.footer_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+/* ==== ==== Footer part Ends Here  ==== ==== */

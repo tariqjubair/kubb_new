@@ -1,0 +1,318 @@
+
+/* ==== ==== 1. Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width: 575.98px){
+    
+/* === === X-sm Common Start === ==== */
+
+.item_top h3:after {
+    width: 35px;
+    left: -50px;
+}
+
+.item_top h3:before {
+    width: 35px;
+    right: -50px;
+}
+
+/* === === X-sm Header Start === ==== */
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 18px;
+}
+
+/* === === X-sm Banner Start === ==== */
+
+#banner {
+    padding-top: 230px;
+    padding-bottom: 130px;
+}
+
+.banner_text h3 {
+    line-height: 50px;
+}
+
+/* === === X-sm Offer Start === ==== */
+
+.serv_item {
+    margin-bottom: 15px;
+}
+
+.serv_top h3 {
+    line-height: 35px;
+}
+
+.serv_top p {
+    padding-top: 25px;
+    padding-bottom: 60px;
+    line-height: 18px;
+}
+
+.serv_item_text p {
+    width: auto;
+}
+
+/* === === X-sm Journal Start === ==== */
+
+.jour_item {
+    margin-bottom: 15px;
+}
+
+/* === === X-sm About Start === ==== */
+
+#about {
+    padding: 30px 0;
+}
+
+.me_text h3 {
+    padding-top: 12px;
+}
+
+.sub_top h3 {
+    margin-top: 40px;
+}
+
+.myserv_item_icon {
+    width: auto;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.myserv_item_text {
+    padding-left: 0;
+    text-align: center;
+}
+
+/* === === X-sm Footer Top Start === ==== */
+
+#footer_top {
+    padding: 35px 0;
+}
+
+.info_item_one_bot_text {
+    width: 91%;
+}
+
+#footer_top h3 {
+    padding-top: 35px;
+}
+
+/* === === X-sm Footer Start === ==== */
+
+.footer_text {
+    text-align: center;
+}
+
+.footer_text p {
+    line-height: 20px;
+    padding: 0 20px;
+}
+
+/* ==== X-sm END ==== */
+    
+}
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+/* === === SM Common Start === ==== */
+/* === === SM Header Start === ==== */
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 18px;
+}
+
+/* === === SM Banner Start === ==== */
+
+#banner {
+    padding-top: 280px;
+    padding-bottom: 180px;
+}
+
+/* === === SM Offer Start === ==== */
+
+.serv_item {
+    margin-bottom: 25px;
+}
+
+.serv_top h3 {
+    line-height: 35px;
+}
+
+.serv_top p {
+    padding: 0 45px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    line-height: 18px;
+}
+
+/* === === SM Journal Start === ==== */
+
+.jour_item {
+    margin-bottom: 25px;
+}
+
+/* === === SM About Start === ==== */
+
+#about {
+    padding: 30px 0;
+}
+
+.me_text h3 {
+    padding-top: 12px;
+}
+
+.sub_top h3 {
+    margin-top: 40px;
+}
+
+.myserv_item_icon {
+    width: auto;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.myserv_item_text {
+    padding-left: 0;
+    text-align: center;
+}
+
+/* === === SM Footer Top Start === ==== */
+
+#footer_top {
+    padding: 35px 0;
+}
+
+.info_item_one_bot_text {
+    width: 91%;
+}
+
+#footer_top h3 {
+    padding-top: 35px;
+}
+
+/* === === SM Footer Start === ==== */
+
+.footer_text {
+    text-align: center;
+}
+    
+/* ==== SM END ==== */
+    
+}
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+/* === === MD Common Start === ==== *
+/* === === MD Header Start === ==== */
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 0!important;
+    line-height: 18px;
+}
+
+/* === === MD Banner Start === ==== */
+
+#banner {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+/* === === MD Offer Start === ==== */
+
+.serv_item {
+    margin-bottom: 25px;
+}
+
+.serv_top h3 {
+    line-height: 35px;
+    padding: 0 160px;
+}
+
+/* === === MD Journal Start === ==== */
+
+.jour_item {
+    margin-bottom: 30px;
+}
+
+/* === === MD About Start === ==== */
+
+#about {
+    padding: 30px 0;
+}
+
+.sub_top h3 {
+    margin-top: 40px;
+}
+
+/* === === MD Footer Top Start === ==== */
+
+#footer_top {
+    padding: 35px 0;
+}
+
+.info_item_one_bot_text {
+    width: 91%;
+}
+
+#footer_top h3 {
+    padding-top: 35px;
+}
+
+/* === === MD Footer Start === ==== */
+
+.footer_text {
+    text-align: center;
+}
+    
+/* ==== MD END ==== */
+    
+}
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === LG Common Start === ==== */
+/* === === LG Offer Start === ==== */
+
+.serv_top h3 {
+    line-height: 35px;
+}
+
+/* === === LG Offer Start === ==== */
+
+.serv_item_text p {
+    width: auto;
+}
+
+/* === === LG About Start === ==== */
+
+.myserv_item_text {
+    padding-left: 40px;
+}
+    
+/* ==== LG END ==== */
+    
+}
